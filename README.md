@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Build](https://github.com/time-scout/AI-Driven-Video-Production-Pipeline/actions/workflows/python-tests.yml/badge.svg)
+
 # AI-Driven Video Production Pipeline
 
 A desktop application for automated, high-volume production of research-backed video content for social media platforms (YouTube Shorts, Reels, TikTok).
