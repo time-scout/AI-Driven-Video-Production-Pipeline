@@ -1,0 +1,60 @@
+# ============================================================
+# AI-Driven Video Production Pipeline — .gitignore
+# ============================================================
+
+# --- Secrets & API Keys (NEVER commit these) ---
+.centralized_montage/secrets.toml
+
+# --- Machine-local config pointer ---
+work_root_pointer.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+*.dylib
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Project runtime files (machine-specific, auto-generated) ---
+database/
+*.xlsx
+*.log
+log_*.txt
+archive_cache.json
+
+# --- Temporary / output files ---
+montage2_temp/
+PUBLICATION_OUTPUT/
+*.tmp
+
+# --- Large media assets (not part of source code) ---
+common_assets/music_background/
+common_assets/video_overlays/
+common_assets/fonts/
